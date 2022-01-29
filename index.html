@@ -7,28 +7,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Saffron Dionysius - App Developer</title>
     <link rel="stylesheet" href="style.css">
-    
+    <script src="index.js"></script>
+   
+
 </head>
 
 <body>
     <header>
-        <div class="navbar">
-            <div class="container">
-                <ul>
-                    <li>
-                        <a class="nav-link nav-logo" href="index.html">
-                            <span class="hide-sm">Saffron Dionysius</span>
-                            <span class="hide-lg">SD</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="contaier">
-                <h1>App Developer</h1>
-                <h3>Coming soon...</h3>
-            </div>
+        <div id="brand"><a href="/">
+                <span class="full-text">Saffron Dionysius</span>
+                <span class="short-text">SD</span>
+            </a></div>
+        <nav>
+            <ul>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/products">Projects</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </nav>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+                <li><a href="/home">Home</a></li>
+                <li><a href="/products">Projects</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
         </div>
     </header>
+    <div class="footer">
+        <p>Saffron Dionysius<br>
+        <a href="saffrontdionysiuse@gmail.com">saffrontdionysiuse@gmail.com</a>
+        </p>
+    </div>
 </body>
 
 </html>
