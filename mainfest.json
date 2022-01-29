@@ -1,7 +1,8 @@
 {
     "name": "Saffron Dionysius",
-    "short_name": "SD",
+    "short_name": "SD - App Developer",
     "lang": "en-US",
-    "display": "fullscreen",
-    "theme_color": "#c2f442"
+    "display": "standalone",
+    "theme_color": "#c2f442",
+    "orientation": "portrait-primary"
   }
