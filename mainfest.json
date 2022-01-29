@@ -2,6 +2,6 @@
     "name": "Saffron Dionysius",
     "short_name": "SD",
     "lang": "en-US",
-    "display": "fullscreen",
+    "display": "standalone",
     "theme_color": "#517CA9"
   }
