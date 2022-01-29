@@ -3,11 +3,6 @@
     "short_name": "SD - App Developer",
     "lang": "en-US",
     "display": "standalone",
-<<<<<<< HEAD
     "theme_color": "#c2f442",
     "orientation": "portrait-primary"
   }
-=======
-    "theme_color": "#517CA9"
-  }
->>>>>>> 84d4e6a0e1ec21d26e498a6cae2515e65304439b
