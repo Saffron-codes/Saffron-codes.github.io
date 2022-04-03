@@ -182,9 +182,6 @@ ul li:hover {
     padding: 6px;
     cursor: pointer;
   }
-  header nav {
-    display: none;
-  }
 }
 
 
