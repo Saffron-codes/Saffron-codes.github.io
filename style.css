@@ -106,6 +106,18 @@ ul li:hover {
 .mobile-menu li {
   margin-bottom: 10px;
 }
+
+
+.welcome{
+  padding: 30px;
+  text-align: center;
+}
+
+.welcome img{
+  height: 100px;
+  width: 100px;
+  animation: rotation 10s infinite linear;
+}
 .footer {
   position: fixed;
   left: 0;
@@ -191,4 +203,13 @@ ul li:hover {
 @media (max-width: 600px) {
     .short-text { display: inline-block; }
     .full-text { display: none; }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }

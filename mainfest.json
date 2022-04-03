@@ -4,5 +4,6 @@
     "lang": "en-US",
     "display": "standalone",
     "theme_color": "#1bb566",
-    "orientation": "portrait-primary"
+    "orientation": "portrait-primary",
+    "android-mobile-web-app-status-bar":"#db4938"
   }
