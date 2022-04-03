@@ -116,6 +116,7 @@ ul li:hover {
 .welcome img{
   height: 100px;
   width: 100px;
+  visibility: hidden;
   animation: rotation 10s infinite linear;
 }
 .footer {
