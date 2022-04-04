@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"); */
 
 * {
   padding: 0;
@@ -105,6 +105,7 @@ ul li:hover {
 
 .mobile-menu li {
   margin-bottom: 10px;
+  font-size: large;
 }
 
 
@@ -116,8 +117,24 @@ ul li:hover {
 .welcome img{
   height: 100px;
   width: 100px;
-  visibility: hidden;
+  /* visibility: hidden; */
   animation: rotation 10s infinite linear;
+}
+
+.welcome .about-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* position: fixed; */
+  /* left: 41%; */
+}
+
+.welcome h4{
+  font-size:x-large;
+  margin-top: 5px;
+}
+.welcome h1{
+  font-size: 4rem;
 }
 .footer {
   position: fixed;

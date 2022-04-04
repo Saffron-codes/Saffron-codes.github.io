@@ -5,5 +5,25 @@
     "display": "standalone",
     "theme_color": "#1bb566",
     "orientation": "portrait-primary",
-    "android-mobile-web-app-status-bar":"#db4938"
+    "android-mobile-web-app-status-bar":"#db4938",
+    "icons": [
+      {
+        "src": "/assets/mobile.svg",
+        "sizes": "48x48",
+        "type": "image/webp"
+      },
+      {
+        "src": "./assets/mobile.svg",
+        "sizes": "48x48"
+      },
+      {
+        "src": "./assets/mobile.svg",
+        "sizes": "72x72 96x96 128x128 256x256"
+      },
+      {
+        "src": "./assets/mobile.svg",
+        "sizes": "any"
+      }
+    ]
+    
   }
